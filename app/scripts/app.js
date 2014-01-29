@@ -2,7 +2,6 @@
 
 var dependencies = [
   'ngRoute',
-  "leaflet-directive",
   'chieffancypants.loadingBar',
   'ngAnimate',
   'geolocation'

@@ -39,13 +39,17 @@
     <script src="components/angular-sanitize/angular-sanitize.js"></script>
     <script src="components/angularjs-geolocation/dist/angularjs-geolocation.min.js"></script>
 
+    <!-- underscore -->
+    <script src="components/underscore/underscore-min.js"></script>
+
     <!-- google map -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=true"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=false"></script>
+    <script src="components/angular-google-maps/dist/angular-google-maps.min.js"></script>
 
     <!-- leaflet & angularjs-leaflet-directive -->
-    <script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
-    <script src="libs/angular-leaflet-directive/dist/angular-leaflet-directive.min.js"></script>
-    <script src="libs/leaflet-plugins/layer/tile/Google.js"></script>
+    <!--<script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>-->
+    <!--<script src="libs/angular-leaflet-directive/dist/angular-leaflet-directive.min.js"></script>-->
+    <!--<script src="libs/leaflet-plugins/layer/tile/Google.js"></script>-->
 
     <!-- loading-bar -->
     <script src="libs/angular-loading-bar/build/loading-bar.min.js"></script>
@@ -54,6 +58,7 @@
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/root.js"></script>
     <script src="scripts/controllers/home.js"></script>
+    <script src="scripts/services/current-geolocation.js"></script>
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
